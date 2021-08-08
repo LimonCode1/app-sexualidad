@@ -1,6 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap');
 body{
     font-family: 'Montserrat', sans-serif;
     border: 0px;
     padding: 0px;
+}
+.title{
+    width: 100% !important;
+    height: 50px !important;
+    font-weight: 900;
+    color: white;
+    margin-top: -15%;
+    background: black !important;
+    font-size: 60px;
+}
+.container-menu{
+    margin-top: 12%;
+    /* border: 2px solid red; */
+    /* border: none; */
+}
+.container-menu .menu{
+    display: flex;
+}
+.container-menu .menu .menu-item{
+    width: 25%;
+}
+.container-menu .menu-item a{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    background-color: white;
+}
+.container-menu .menu-item a:hover{
+    transition-duration: 0.5s;
+    box-shadow:0 .5rem 1rem rgba(0,0,0,.15)!important;
+    color:#581845;
+    background-color: #DAF7A6;
+}
+h2, h3, h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+.img-objetivos{
+    display: flex;
+    align-items: center;
+    padding-right: 4%;
+}
+.card{
+    background: white;
+    border-radius: 20px;
+    border: none;
+}
+.card:hover{
+    transition-duration: .8s;
+    transition: 1s linear;
+    background: coral;
 }
