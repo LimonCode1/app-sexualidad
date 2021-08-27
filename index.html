@@ -13,58 +13,111 @@
     <title>Sexualidad</title>
   </head>
   <body>
-    <section class="container-fluid">
-      <ul class="nav justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#" tabindex="-1">Disabled</a>
-        </li>
-      </ul>
-    </section>
     <section>
-      <div class="container">
-        <div class="d-flex bd-highlight">
-          <div class="p-2 flex-fill bd-highlight">
-            SEXUALIDAD EN LA INFANCIA
+      <div class="container head">
+        <div class="d-flex bd-highlight pt-3">
+          <div class=" flex-fill bd-highlight col-6" style="z-index: 1">
+            <h1 class="title_head">EDUCACION PARA LA SEXUALIDAD</h1>
           </div>
-          <div class="p-2 flex-fill bd-highlight">
-            <img src="./assets/baby.jpg" class="img-fluid rounded" alt="" />
-          </div>
-          <div class="p-2 flex-fill bd-highlight">
-            <img src="./assets/babys x2.jpg" class="img-fluid rounded" alt="" />
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="card">
-          <div class="card-body">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere
-            veniam veritatis, nisi error sunt iste, minima aut recusandae saepe
-            voluptate ex reiciendis quos assumenda eum? Repellendus accusantium
-            velit aliquam sint.
+          <div class="flex-fill bd-highlight col-4">
+            <img
+              src="./assets/fluido-de-genero.svg"
+              class="img-fluid rounded"
+              alt=""
+            />
           </div>
         </div>
       </div>
       <div class="container">
-        <div class="card mb-3" style="max-width: 540px">
+        <!-- buscador -->
+        <form class="d-flex py-5">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Busca aqui"
+            aria-label="Buscar"
+          />
+          <button class="btn btn-outline-info col-3" type="submit">
+            Buscar
+          </button>
+        </form>
+        <ul class="nav justify-content-center">
+          <li class="nav-item p-2">
+            <a class="btn btn-outline-primary p-3" href="#">OBJETIVOS</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="btn btn-outline-success p-3" href="#">INTRODUCCIÓN</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="btn btn-outline-info p-3" href="#"
+              >EDUCACIÓN PARA LA SEXUALIDAD EN PRIMERA INFANCIA</a
+            >
+          </li>
+          <li class="nav-item p-2">
+            <a class="btn btn-outline-danger p-3" href="#">DICCIONARIO</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="btn btn-outline-warning p-3" href="#">DOCENTES</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="btn btn-outline-success p-3" href="#">FAMILIAS</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="btn btn-outline-info p-3" href="#">NIÑOS Y NIÑAS</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="btn btn-outline-danger p-3" href="#">MATERIAL DE APOYO</a>
+          </li>
+        </ul>
+        <p class="text-center cita mt-5">
+          VARGAS(2007) afirma que la educación para la sexualidad tiene que ver
+          también con una educación basada en el amor, el respeto, la autonomía
+          y la libertad, enfocada para la vida, en donde se valore a cada
+          persona como un ser único, y en la que no debe haber ningún tipo de
+          discriminacion o violencia. “es en definitiva luchar por una vida
+          plena y con conciencia”
+        </p>
+      </div>
+      <!-- titulo modulo -->
+      <div class="container module p-5 mt-5">
+        <h2 class="encabezado text-center">
+          <img
+            src="./assets/nota.svg"
+            class="img-fluid img-encabezado"
+            alt=""
+          />
+          Objetivos
+        </h2>
+        <h3>General</h3>
+        <p>
+          Brindar una herramienta tecnológica de apoyo a los docentes para
+          abordar la educación para la sexualidad en la primera infancia
+        </p>
+        <h3>Especificos</h3>
+        <li>
+          Identificar y definir los elementos importantes que conforman la
+          sexualidad.
+        </li>
+        <li>
+          Informar a padres y madres de familia sobre la importancia de abordar
+          la educación para la sexualidad en la primera infancia.
+        </li>
+        <li>
+          Reconocer a los niños y niñas como principales actores para llevar a
+          cabo la educación para la sexualidad.
+        </li>
+        <li>
+          Proponer talleres, actividades y materiales que sirvan tanto para
+          docentes y padres de familia, a la hora de educar para la sexualidad
+          en la primera infancia.
+        </li>
+      </div>
+      <!-- <div class="container">
+        <div class="card mb-3 mt-5">
           <div class="row g-0">
             <div class="col-md-4">
               <img
-                src="./assets/babys x2.jpg"
+                src="./assets/bombilla.svg"
                 class="img-fluid rounded-start"
                 alt="..."
               />
@@ -110,9 +163,9 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
-      <!-- message #1 -->
+      <!-- message #1
       <div class="row py-lg-5">
         <div class="col-lg-6 col-md-8 mx-auto">
           <h1 class="fw-light">Album example</h1>
@@ -126,21 +179,19 @@
             <a href="#" class="btn btn-secondary my-2">Secondary action</a>
           </p>
         </div>
-      </div>
+      </div> -->
 
-      <!-- video insert -->
+      <!-- module video insert -->
       <div class="album py-5 bg-light">
         <div class="container">
-			<div class="card mb-3">
-				  <div class="col-sm-1">
-					<img src="./assets/high-five.svg" class="img-fluid rounded-start" alt="high-five">
-				  </div>
-				  <div class="col-md-8">
-					<div class="card-body">
-						<h2 class="pb-3">Para niños y niñas</h2>
-					</div>
-				  </div>
-			  </div>
+          <h2 class="encabezado text-center">
+            <img
+              src="./assets/ninos (1).svg"
+              class="img-fluid img-encabezado"
+              alt=""
+            />
+            Para niños y niñas
+          </h2>
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-5">
             <div class="col">
               <div class="card shadow">
@@ -155,9 +206,10 @@
                 ></iframe>
                 <div class="card-body">
                   <p class="card-text text-center">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                    minima voluptate, tempore soluta quod suscipit esse eos
+                    mollitia reprehenderit voluptatum ipsa perspiciatis!
+                    Maiores, reiciendis fugiat. Quia eum inventore earum quam.
                   </p>
                 </div>
               </div>
@@ -176,9 +228,10 @@
 
                 <div class="card-body">
                   <p class="card-text text-center">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia quam iste error illum maxime ullam temporibus,
+                    itaque odio, facere ex facilis nisi ipsum! Optio culpa
+                    corrupti libero sequi cum rem!
                   </p>
                 </div>
               </div>
@@ -188,7 +241,24 @@
       </div>
     </section>
     <section>
-      <footer><div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div></footer>
+      <footer>
+        <div>
+          Icons made by
+          <a href="https://www.freepik.com" title="Freepik">Freepik</a> from
+          <a href="https://www.flaticon.com/" title="Flaticon"
+            >www.flaticon.com</a
+          >
+        </div>
+        <div class="text-center">
+          Desarrollado por
+          <a
+            href="https://limoncode1.github.io/portfolio/"
+            title="portfolio"
+            target="_blank"
+            >Carlos Andres Sanchez</a
+          >
+        </div>
+      </footer>
     </section>
 
     <script src="js/bootstrap.min.js"></script>

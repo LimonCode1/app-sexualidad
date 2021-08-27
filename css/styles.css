@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;600;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@200;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
 * {
 	padding: 0px;
 	margin: 0px;
@@ -8,8 +8,40 @@
 	box-sizing: border-box;
 }
 body {
-	font-family: 'Montserrat', sans-serif;
-	background: rgb(61, 187, 245);
+	font-family: 'Spartan', sans-serif;
+	background: #F9FBE7
+	color: #010956;
+}
+.btn{
+	font-family: 'Spartan', sans-serif !important;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+.title_head{
+	font-weight: 900 !important;
+	font-size: 7rem;
+	font-family: 'Rampart One', cursive;
+}
+.cita{
+	background: #EA8490;
+	padding: 50px;
+	border-radius: 100px;
+	font-weight: 700;
+	color: #ffff; 
+	/* FFF6EE */
+	font-size: 1.2rem;
+}
+.encabezado{
+	font-size: 4vh;
+	font-weight: 700;
+}
+.img-encabezado{
+	width: 10vh;
+}
+.module{
+	background: #FFF8DC;
+	border-radius: 5vh;
+	
 }
 
 /* media queries */
