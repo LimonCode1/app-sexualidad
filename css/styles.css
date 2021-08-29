@@ -6,11 +6,14 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	border: none !important;
+
 }
 body {
 	font-family: 'Spartan', sans-serif;
 	background: #F9FBE7
 	color: #010956;
+
 }
 .btn{
 	font-family: 'Spartan', sans-serif !important;
@@ -19,7 +22,7 @@ body {
 }
 .title_head{
 	font-weight: 900 !important;
-	font-size: 7rem;
+	font-size: 6rem;
 	font-family: 'Rampart One', cursive;
 }
 .cita{
@@ -31,6 +34,7 @@ body {
 	/* FFF6EE */
 	font-size: 1.2rem;
 }
+
 .encabezado{
 	font-size: 4vh;
 	font-weight: 700;
@@ -42,6 +46,12 @@ body {
 	background: #FFF8DC;
 	border-radius: 5vh;
 	
+}
+/* #menu1, #menu2, #menu, #menu4, #menu5, #menu6, #menu7{
+	display: none;
+} */
+.hide{
+	display: none;
 }
 
 /* media queries */

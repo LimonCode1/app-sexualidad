@@ -1,71 +1,82 @@
-$(document).ready(() => {
-	// el metodo .each() me permite agregar alguna accion a cada uno de los elementos que sean enlaces en este caso
-	// efecto MENU
-	$('.menu a').each(function (index, elemento) {
-		$(this).css({
-			top: '-200px', //para colocar los enlaces arriba
-		});
-		$(this).animate(
-			{
-				top: '0',
-			},
-			2000 + index * 500
-		); // el index hace referencia al orden de los elementos en el cual empieza en 0..1...
-	});
-	// efecto HEADER
-	if ($(window).width() > 800) {
-		$('header .texts').css({
-			opacity: 0,
-			marginTop: 0,
-		});
-		$('header .texts').animate(
-			{
-				opacity: 1,
-				marginTop: '-52px',
-			},
-			1500
-		);
-	}
-	//SCROLL ELEMENTOS MENU
-	var about = $('#about').offset().top; //obtencion de elementos
-	var menu = $('#Platillos').offset().top;
-	var gallery = $('#gallery').offset().top;
-	var location = $('#location').offset().top;
+ // mostrar y ocultar menu
+ var ver;
+ var ver2;
+ var ver3;
+ var ver4;
+ var ver5;
+ var ver6;
+ var ver7;
+ var ver8;
 
-	$('#btn-about').on('click', function (e) {
-		e.preventDefault();
-		$('html, body').animate(
-			{
-				scrollTop: about - 1,
-			},
-			500 // velocidad
-		);
-	});
-	$('#btn-Menu').on('click', function (e) {
-		e.preventDefault();
-		$('html, body').animate(
-			{
-				scrollTop: menu - 1,
-			},
-			500
-		);
-	});
-	$('#btn-Gallery').on('click', function (e) {
-		e.preventDefault();
-		$('html, body').animate(
-			{
-				scrollTop: gallery - 1,
-			},
-			500
-		);
-	});
-	$('#btn-location').on('click', function (e) {
-		e.preventDefault();
-		$('html, body').animate(
-			{
-				scrollTop: location - 1,
-			},
-			500
-		);
-	});
-});
+ function show_hide(){
+ 	if(ver == 1){
+ 		document.getElementById("menu1").style.display="block";
+ 		return ver = 0;
+ 	}else{
+ 		document.getElementById("menu1").style.display="none";
+ 		return ver = 1;
+ 	}
+ }
+ function show_hide2(){
+ 	if(ver2 == 1){
+ 		document.getElementById("menu2").style.display="block";
+ 		return ver2 = 0;
+ 	}else{
+ 		document.getElementById("menu2").style.display="none";
+ 		return ver2 = 1;
+ 	}
+ }
+ function show_hide3(){
+ 	if(ver3 == 1){
+ 		document.getElementById("menu3").style.display="block";
+ 		return ver3 = 0;
+ 	}else{
+ 		document.getElementById("menu3").style.display="none";
+ 		return ver3 = 1;
+ 	}
+ }
+ function show_hide4(){
+ 	if(ver4 == 1){
+ 		document.getElementById("menu4").style.display="block";
+ 		return ver4 = 0;
+ 	}else{
+ 		document.getElementById("menu4").style.display="none";
+ 		return ver4 = 1;
+ 	}
+ }
+ function show_hide5(){
+ 	if(ver5 == 1){
+ 		document.getElementById("menu5").style.display="block";
+ 		return ver5 = 0;
+ 	}else{
+ 		document.getElementById("menu5").style.display="none";
+ 		return ver5 = 1;
+ 	}
+ }
+ function show_hide6(){
+ 	if(ver6 == 1){
+ 		document.getElementById("menu6").style.display="block";
+ 		return ver6 = 0;
+ 	}else{
+ 		document.getElementById("menu6").style.display="none";
+ 		return ver6 = 1;
+ 	}
+ }
+ function show_hide7(){
+ 	if(ver7 == 1){
+ 		document.getElementById("menu7").style.display="block";
+ 		return ver7 = 0;
+ 	}else{
+ 		document.getElementById("menu7").style.display="none";
+ 		return ver7 = 1;
+ 	}
+ }
+ function show_hide8(){
+    if(ver7 == 1){
+        document.getElementById("menu8").style.display="block";
+        return ver7 = 0;
+    }else{
+        document.getElementById("menu8").style.display="none";
+        return ver7 = 1;
+    }
+}
