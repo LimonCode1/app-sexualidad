@@ -16,75 +16,117 @@
       href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <title>Educacion para la Sexualidad</title>
+    <title>EDUCACIÓN PARA LA SEXUALIDAD</title>
   </head>
   <body>
     <section>
       <div class="container head">
         <div class="d-flex bd-highlight pt-3">
           <div class="flex-fill bd-highlight col-6 mr-5" style="z-index: 1">
-            <h1 class="title_head">Educación Para La Sexualida</h1>
+            <h1 class="title_head">Educación Para La Sexualidad</h1>
           </div>
           <div class="flex-fill bd-highlight col-6 ml-5">
-            <img
-              src="./assets/fluido-de-genero.svg"
-              class="img-fluid rounded"
-              alt=""
-            />
+            <img src="./assets/genero.svg" class="img-fluid rounded" alt="" />
           </div>
         </div>
       </div>
     </section>
     <div class="container">
-      <!-- buscador -->
-      <form class="d-flex py-5">
-        <input
-          class="form-control me-2"
-          type="search"
-          placeholder="Busca aqui"
-          aria-label="Buscar"
-        />
-        <button class="btn btn-outline-info col-3" type="submit">Buscar</button>
-      </form>
-      <!-- Menu -->
+      <!-- Menu principal -->
       <ul class="nav justify-content-center">
         <li class="nav-item p-2">
-          <button class="btn btn-outline-primary p-3" onclick="show_hide();">
+          <button
+            class="btn btn-outline-dark p-3"
+            type="button"
+            data-toggle="collapse"
+            data-target="#Objetivos"
+            aria-expanded="false"
+            aria-controls="#Videos"
+          >
             OBJETIVOS
           </button>
         </li>
         <li class="nav-item p-2">
-          <button class="btn btn-outline-success p-3" onclick="show_hide2();">
+          <button
+            class="btn btn-outline-dark p-3"
+            type="button"
+            data-toggle="collapse"
+            data-target="#Introduccion"
+            aria-expanded="false"
+            aria-controls="#Introduccion"
+          >
             INTRODUCCIÓN
           </button>
         </li>
         <li class="nav-item p-2">
-          <button class="btn btn-outline-info p-3" onclick="show_hide3();">
+          <button
+            class="btn btn-outline-dark p-3"
+            type="button"
+            data-toggle="collapse"
+            data-target="#Educacion"
+            aria-expanded="false"
+            aria-controls="#Educacion"
+          >
             EDUCACIÓN PARA LA SEXUALIDAD EN PRIMERA INFANCIA
           </button>
         </li>
         <li class="nav-item p-2">
-          <button class="btn btn-outline-danger p-3" onclick="show_hide4()">
+          <button
+            class="btn btn-outline-dark p-3"
+            type="button"
+            data-toggle="collapse"
+            data-target="#Diccionario"
+            aria-expanded="false"
+            aria-controls="#Diccionario"
+          >
             DICCIONARIO
           </button>
         </li>
         <li class="nav-item p-2">
-          <button class="btn btn-outline-warning p-3" onclick="show_hide5()">
+          <button
+            class="btn btn-outline-warning p-3"
+            type="button"
+            data-toggle="collapse"
+            data-target="#Docentes"
+            aria-expanded="false"
+            aria-controls="#Docentes"
+          >
             DOCENTES
           </button>
         </li>
         <li class="nav-item p-2">
-          <button class="btn btn-outline-success p-3" onclick="show_hide6()">
+          <button
+            class="btn btn-outline-success p-3"
+            type="button"
+            data-toggle="collapse"
+            data-target="#Familias"
+            aria-expanded="false"
+            aria-controls="#Familias"
+          >
             FAMILIAS
           </button>
         </li>
         <li class="nav-item p-2">
-          <button class="btn btn-outline-info p-3" onclick="show_hide7()">
+          <button
+            class="btn btn-outline-info p-3"
+            type="button"
+            data-toggle="collapse"
+            data-target="#Niños"
+            aria-expanded="false"
+            aria-controls="#Niños"
+          >
             NIÑOS Y NIÑAS
           </button>
         </li>
         <li class="nav-item p-2">
-          <button class="btn btn-outline-danger p-3" onclick="show_hide8()">
+          <button
+            class="btn btn-outline-danger p-3"
+            type="button"
+            data-toggle="collapse"
+            data-target="#Material"
+            aria-expanded="false"
+            aria-controls="#Material"
+          >
             MATERIAL DE APOYO
           </button>
         </li>
@@ -101,7 +143,7 @@
     </div>
 
     <!-- menu de objetivos -->
-    <div id="menu1" class="hide">
+    <div id="Objetivos" class="collapse">
       <div class="container module p-5 mt-5">
         <h2 class="encabezado text-center">
           <img
@@ -138,7 +180,7 @@
     </div>
 
     <!-- Menu de Introduccion -->
-    <div id="menu2" class="hide">
+    <div id="Introduccion" class="collapse">
       <div class="container module p-5 mt-5">
         <h2 class="encabezado text-center">
           <img
@@ -163,357 +205,331 @@
     </div>
 
     <!-- menu de Educacion para la primera infancia -->
-    <div class="container mt-5 hide" id="menu3">
-      <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
-            <button
-              class="accordion-button"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseOne"
-              aria-expanded="true"
-              aria-controls="collapseOne"
-            >
-              IMPORTANCIA
-            </button>
-          </h2>
-          <div
-            id="collapseOne"
-            class="accordion-collapse collapse"
-            aria-labelledby="headingOne"
-            data-bs-parent="#accordionExample"
-          >
-            <div class="accordion-body">
-              Es  necesario trabajar la
-              <strong>
-                educación para la sexualidad desde la primera infancia </strong
-              >y trascender del ámbito de la información, estructurando valores,
-              actitudes y sentimientos positivos frente a la sexualidad, ya que
-              es una dimensión que no se puede desconocer, pues se nace siendo
-              hombre o mujer, pero no se nace sabiendo serlo y las nuevas
-              dinámicas sociales exponen al sujeto-niño a constantes
-              transformaciones, al presentar otras formas de interacción
-              generando nuevas identidades. La educación para la sexualidad debe
-              ser reconocida como un derecho y por lo tanto debe ser
-              obligatoria, no solo por parte de la familia sino también en las
-              instituciones educativas, permitiendo de esta manera, un
-              desarrollo óptimo de los niños y niñas, desde temprana edad y a lo
-              largo de su vida. Además el estado debe velar para que este
-              derecho se garantice en el sistema educativo, pues no debería ser
-              una opción o  un privilegio el recibir una adecuada educación para
-              la sexualidad.
-            </div>
-          </div>
+    <div class="container mt-5 collapse" id="Educacion">
+      <div class="card">
+        <div class="card-header text-center">
+          <ul class="nav nav-tabs card-header-tabs">
+            <li class="nav-item col-3">
+              <button
+                class="btn btn-info btn-block sub-btn"
+                type="button"
+                data-toggle="collapse"
+                data-target="#Importancia"
+                aria-expanded="false"
+                aria-controls="#Importancia"
+              >
+                IMPORTANCIA
+              </button>
+            </li>
+            <li class="nav-item col-4">
+              <button
+                class="btn btn-info btn-block sub-btn"
+                type="button"
+                data-toggle="collapse"
+                data-target="#EnCuenta"
+                aria-expanded="false"
+                aria-controls="#EnCuenta"
+              >
+                PARA TENER EN CUENTA
+              </button>
+            </li>
+            <li class="nav-item col-5">
+              <button
+                class="btn btn-info btn-block sub-btn"
+                type="button"
+                data-toggle="collapse"
+                data-target="#Derechos"
+                aria-expanded="false"
+                aria-controls="#Derechos"
+              >
+                DERECHOS SEXUALES Y REPRODUCTIVOS
+              </button>
+            </li>
+          </ul>
         </div>
-
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseTwo"
-              aria-expanded="false"
-              aria-controls="collapseTwo"
-            >
-              PARA TENER EN CUENTA
-            </button>
-          </h2>
-          <div
-            id="collapseTwo"
-            class="accordion-collapse collapse"
-            aria-labelledby="headingTwo"
-            data-bs-parent="#accordionExample"
-          >
-            <div class="accordion-body">
-              <div class="px-5 py-3 text-">
-                <p>
-                  La sexualidad es dinámica y cambiante, esta se construye
-                  continuamente por la mutua interacción del individuo y las
-                  estructuras sociales, está presente en todas las etapas de la
-                  vida, contribuyendo al fortalecimiento de la identidad y la
-                  construcción de vínculos interpersonales.
-                </p>
-                <p>
-                  Con la Constitución Política de 1991 se marca un lugar
-                  importante para la educación sexual, contemplando los Derechos
-                  Sexuales y Reproductivos (DSR), muchos de ellos propuestos por
-                  la conferencia internacional sobre la población y desarrollo,
-                  celebrada en el Cairo en 1994, los cuales fueron incluidos
-                  explícitamente en la Constitución Política Colombiana. Esta
-                  conferencia permitió replantear la cobertura y la calidad de
-                  la salud para mejorar los niveles de salud reproductiva,
-                  planteando que se debía complementar con procesos educativos
-                  en donde las personas adquieran conocimientos, habilidades,
-                  actitudes y valores, que aseguren el ejercicio de sus derechos
-                  sexuales y reproductivos.
-                </p>
-                <p>
-                  Colombia se ha sumado a los esfuerzos que se han hecho, en
-                  gran medida por los movimientos sociales que han presionado al
-                  respecto, y las tensiones políticas que se han generado en
-                  torno a la sexualidad, la Constitución política de 1991,
-                  incluyó los Derechos Sexuales y Reproductivos, como derechos
-                  fundamentales. Hacia 1993 el Ministerio de Educación Nacional,
-                  <strong
-                    >hizo obligatoria la educación sexual en las instituciones
-                    educativas mediante la resolución 3353 de 1993</strong
-                  >, fundamento del Proyecto Nacional de Educación Sexual
-                  <strong style="color: blueviolet">(PNES)</strong> formulado en
-                  1993.
-                  <strong>La ley General de Educación 115 de 1994</strong>,
-                  estableció que la obligatoriedad de la educación sexual se
-                  debe cumplir bajo la modalidad de proyectos pedagógicos
-                  transversales, y con el apoyo del Fondo de Población de las
-                  Naciones Unidas (UNFPA), el MEN realizó el Proyecto de
-                  Educación Sexual y Construcción de Ciudadanía, también se
-                  establece que la educación sexual es obligatoria en todos los
-                  niveles educativos, desde preescolar hasta media, de acuerdo a
-                  las necesidades psíquicas de los estudiantes y que “no exige
-                  asignatura específica” pues debe desarrollarse a través de
-                  todo el plan de estudios. En el año 2014 la Corte
-                  Constitucional
-                  <a
-                    href="https://www.eltiempo.com/archivo/documento/CMS-16519721"
-                    target="_blank"
-                    >estableció
-                  </a>
-                  que la cátedra de educación sexual en Colombia se dictara en
-                  secundaria como una cátedra de prevención del abuso sexual.
-                  Justificando que las leyes del país ya incluyen la cátedra de
-                  <a
-                    href="http://profainteractiva.blogspot.com/2016/02/Educacion-Sexual.html"
-                    target="_blank"
-                    >educación sexual integral.</a
+        <div class="card-body collapse" id="Importancia">
+          <p class="card-text px-5 py-3">
+            Es  necesario trabajar la
+            <strong>
+              educación para la sexualidad desde la primera infancia </strong
+            >y trascender del ámbito de la información, estructurando valores,
+            actitudes y sentimientos positivos frente a la sexualidad, ya que es
+            una dimensión que no se puede desconocer, pues se nace siendo hombre
+            o mujer, pero no se nace sabiendo serlo y las nuevas dinámicas
+            sociales exponen al sujeto-niño a constantes transformaciones, al
+            presentar otras formas de interacción generando nuevas identidades.
+            La educación para la sexualidad debe ser reconocida como un derecho
+            y por lo tanto debe ser obligatoria, no solo por parte de la familia
+            sino también en las instituciones educativas, permitiendo de esta
+            manera, un desarrollo óptimo de los niños y niñas, desde temprana
+            edad y a lo largo de su vida. Además el estado debe velar para que
+            este derecho se garantice en el sistema educativo, pues no debería
+            ser una opción o  un privilegio el recibir una adecuada educación
+            para la sexualidad.
+          </p>
+        </div>
+        <div class="card-body collapse" id="EnCuenta">
+          <div class="px-5 py-3">
+            <p>
+              La sexualidad es dinámica y cambiante, esta se construye
+              continuamente por la mutua interacción del individuo y las
+              estructuras sociales, está presente en todas las etapas de la
+              vida, contribuyendo al fortalecimiento de la identidad y la
+              construcción de vínculos interpersonales.
+            </p>
+            <p>
+              Con la Constitución Política de 1991 se marca un lugar importante
+              para la educación sexual, contemplando los Derechos Sexuales y
+              Reproductivos (DSR), muchos de ellos propuestos por la conferencia
+              internacional sobre la población y desarrollo, celebrada en el
+              Cairo en 1994, los cuales fueron incluidos explícitamente en la
+              Constitución Política Colombiana. Esta conferencia permitió
+              replantear la cobertura y la calidad de la salud para mejorar los
+              niveles de salud reproductiva, planteando que se debía
+              complementar con procesos educativos en donde las personas
+              adquieran conocimientos, habilidades, actitudes y valores, que
+              aseguren el ejercicio de sus derechos sexuales y reproductivos.
+            </p>
+            <p>
+              Colombia se ha sumado a los esfuerzos que se han hecho, en gran
+              medida por los movimientos sociales que han presionado al
+              respecto, y las tensiones políticas que se han generado en torno a
+              la sexualidad, la Constitución política de 1991, incluyó los
+              Derechos Sexuales y Reproductivos, como derechos fundamentales.
+              Hacia 1993 el Ministerio de Educación Nacional,
+              <strong
+                >hizo obligatoria la educación sexual en las instituciones
+                educativas mediante la resolución 3353 de 1993</strong
+              >, fundamento del Proyecto Nacional de Educación Sexual
+              <strong style="color: blueviolet">(PNES)</strong> formulado en
+              1993. <strong>La ley General de Educación 115 de 1994</strong>,
+              estableció que la obligatoriedad de la educación sexual se debe
+              cumplir bajo la modalidad de proyectos pedagógicos transversales,
+              y con el apoyo del Fondo de Población de las Naciones Unidas
+              (UNFPA), el MEN realizó el Proyecto de Educación Sexual y
+              Construcción de Ciudadanía, también se establece que la educación
+              sexual es obligatoria en todos los niveles educativos, desde
+              preescolar hasta media, de acuerdo a las necesidades psíquicas de
+              los estudiantes y que “no exige asignatura específica” pues debe
+              desarrollarse a través de todo el plan de estudios. En el año 2014
+              la Corte Constitucional
+              <a
+                href="https://www.eltiempo.com/archivo/documento/CMS-16519721"
+                target="_blank"
+                >estableció
+              </a>
+              que la cátedra de educación sexual en Colombia se dictara en
+              secundaria como una cátedra de prevención del abuso sexual.
+              Justificando que las leyes del país ya incluyen la cátedra de
+              <a
+                href="http://profainteractiva.blogspot.com/2016/02/Educacion-Sexual.html"
+                target="_blank"
+                >educación sexual integral.</a
+              >
+              “Profamilia reconoce que la educación sexual integral ya hace
+              parte del ordenamiento jurídico colombiano, establecida en varias
+              disposiciones.” (Profamilia, 2014).
+            </p>
+            <p>
+              DIFERENCIAS ENTRE
+              <strong
+                >EDUCACIÓN SEXUAL, EDUCACIÓN EN SEXUALIDAD Y EDUCACIÓN PARA LA
+                SEXUALIDAD</strong
+              >
+            </p>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
                   >
-                  “Profamilia reconoce que la educación sexual integral ya hace
-                  parte del ordenamiento jurídico colombiano, establecida en
-                  varias disposiciones.” (Profamilia, 2014).
-                </p>
-              </div>
-              <p>
-                DIFERENCIAS ENTRE
-                <strong
-                  >EDUCACIÓN SEXUAL, EDUCACIÓN EN SEXUALIDAD Y EDUCACIÓN PARA LA
-                  SEXUALIDAD</strong
+                    1. EDUCACIÓN SEXUAL
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample"
                 >
-              </p>
-              <div class="accordion accordion-flush" id="accordionFlushExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingOne">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseOne"
-                      aria-expanded="false"
-                      aria-controls="flush-collapseOne"
-                    >
-                      1. EDUCACIÓN SEXUAL
-                    </button>
-                  </h2>
-                  <div
-                    id="flush-collapseOne"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="flush-headingOne"
-                    data-bs-parent="#accordionFlushExample"
-                  >
-                    <div class="accordion-body">
-                      La educación sexual es “el proceso de
-                      enseñanza-aprendizaje en el que se forma al hombre en lo
-                      relacionado con el proceso y los efectos de la actividad
-                      sexual y el sexo” (Ecuared, actualizado 2013). De esta
-                      manera la educación sexual, está referida a los contenidos
-                      que se pueden planear, sistematizar y evaluar, es decir la
-                      información sexual que es proporcionada por la escuela,
-                      enfocada desde el aspecto biológico, para responder sobre
-                      los conocimientos en salud sexual y reproductiva que
-                      puedan presentar los estudiantes.  “La educación sexual
-                      tendrá como propósito proporcionar instrumentos adecuados
-                      que promuevan en educadores y educandos, la reflexión
-                      crítica ante las relaciones de género y la sexualidad en
-                      general para un disfrute responsable de la misma.” “La
-                      educación sexual tendrá como propósito proporcionar
-                      instrumentos adecuados que promuevan en educadores y
-                      educandos, la reflexión crítica ante las relaciones de
-                      género y la sexualidad en general para un disfrute
-                      responsable de la misma.” Ley 18.437
-                    </div>
+                  <div class="accordion-body">
+                    La educación sexual es “el proceso de enseñanza-aprendizaje
+                    en el que se forma al hombre en lo relacionado con el
+                    proceso y los efectos de la actividad sexual y el sexo”
+                    (Ecuared, actualizado 2013). De esta manera la educación
+                    sexual, está referida a los contenidos que se pueden
+                    planear, sistematizar y evaluar, es decir la información
+                    sexual que es proporcionada por la escuela, enfocada desde
+                    el aspecto biológico, para responder sobre los conocimientos
+                    en salud sexual y reproductiva que puedan presentar los
+                    estudiantes.  “La educación sexual tendrá como propósito
+                    proporcionar instrumentos adecuados que promuevan en
+                    educadores y educandos, la reflexión crítica ante las
+                    relaciones de género y la sexualidad en general para un
+                    disfrute responsable de la misma.” “La educación sexual
+                    tendrá como propósito proporcionar instrumentos adecuados
+                    que promuevan en educadores y educandos, la reflexión
+                    crítica ante las relaciones de género y la sexualidad en
+                    general para un disfrute responsable de la misma.” Ley
+                    18.437
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingTwo">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseTwo"
-                      aria-expanded="false"
-                      aria-controls="flush-collapseTwo"
-                    >
-                      2. EDUCACIÓN EN SEXUALIDAD
-                    </button>
-                  </h2>
-                  <div
-                    id="flush-collapseTwo"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="flush-headingTwo"
-                    data-bs-parent="#accordionFlushExample"
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
                   >
-                    <div class="accordion-body">
-                      El Ministerio de Educación Nacional (2003) en su proyecto
-                      Fondo Mundial en Colombia define la educación en
-                      sexualidad como “aquella que se da por fuera de los marcos
-                      de las instituciones educativas” (pág. 50). Esta se
-                      imparte a través de instituciones como la familia, la
-                      iglesia, los medios de comunicación y el contexto socio
-                      cultural en donde se encuentre el sujeto. 
-                    </div>
+                    2. EDUCACIÓN EN SEXUALIDAD
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingTwo"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    El Ministerio de Educación Nacional (2003) en su proyecto
+                    Fondo Mundial en Colombia define la educación en sexualidad
+                    como “aquella que se da por fuera de los marcos de las
+                    instituciones educativas” (pág. 50). Esta se imparte a
+                    través de instituciones como la familia, la iglesia, los
+                    medios de comunicación y el contexto socio cultural en donde
+                    se encuentre el sujeto. 
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingThree">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseThree"
-                      aria-expanded="false"
-                      aria-controls="flush-collapseThree"
-                    >
-                      3. EDUCACIÓN PARA LA SEXUALIDAD
-                    </button>
-                  </h2>
-                  <div
-                    id="flush-collapseThree"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="flush-headingThree"
-                    data-bs-parent="#accordionFlushExample"
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
                   >
-                    <div class="accordion-body">
-                      Contribuye al desarrollo de las capacidades individuales y
-                      colectivas, proponiendo adquisición de valores, que tienen
-                      una importancia singular en el proceso de subjetivación de
-                      cada individuo, en el reconocimiento de sí mismo y de los
-                      demás. La educación para la sexualidad tiene que ver
-                      también con una educación basada en el amor, el respeto,
-                      la autonomía y la libertad, enfocada para la vida, en
-                      donde se valore a cada persona como un ser único, y en la
-                      que no debe haber ningún tipo de discriminación o
-                      violencia. Es  necesario hablar de sexualidad desde la
-                      primera infancia y trascender del ámbito de la
-                      información, estructurando valores, actitudes y
-                      sentimientos positivos frente a la sexualidad, ya que es
-                      una dimensión que no se puede desconocer, pues se nace
-                      siendo hombre o mujer, pero no se nace sabiendo serlo y
-                      las nuevas dinámicas sociales exponen al sujeto-niño a
-                      constantes transformaciones, al presentar otras formas de
-                      interacción generando nuevas identidades.
-                    </div>
+                    3. EDUCACIÓN PARA LA SEXUALIDAD
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Contribuye al desarrollo de las capacidades individuales y
+                    colectivas, proponiendo adquisición de valores, que tienen
+                    una importancia singular en el proceso de subjetivación de
+                    cada individuo, en el reconocimiento de sí mismo y de los
+                    demás. La educación para la sexualidad tiene que ver también
+                    con una educación basada en el amor, el respeto, la
+                    autonomía y la libertad, enfocada para la vida, en donde se
+                    valore a cada persona como un ser único, y en la que no debe
+                    haber ningún tipo de discriminación o violencia.
+                    Es  necesario hablar de sexualidad desde la primera infancia
+                    y trascender del ámbito de la información, estructurando
+                    valores, actitudes y sentimientos positivos frente a la
+                    sexualidad, ya que es una dimensión que no se puede
+                    desconocer, pues se nace siendo hombre o mujer, pero no se
+                    nace sabiendo serlo y las nuevas dinámicas sociales exponen
+                    al sujeto-niño a constantes transformaciones, al presentar
+                    otras formas de interacción generando nuevas identidades.
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseThree"
-              aria-expanded="false"
-              aria-controls="collapseThree"
-            >
-              DERECHOS SEXUALES Y REPRODUCTIVOS
-            </button>
-          </h2>
-          <div
-            id="collapseThree"
-            class="accordion-collapse collapse"
-            aria-labelledby="headingThree"
-            data-bs-parent="#accordionExample"
-          >
-            <div class="accordion-body">
-              <p>
-                <strong>1. Derecho a la libertad:</strong> Excluye todas las
-                formas de coerción, explotación y abusos sexuales en cualquier
-                momento de la vida y en cualquier condición. La lucha contra la
-                violencia constituye una prioridad. 
-              </p>
-              <p>
-                <strong>2. Derecho a la igualdad y a la equidad sexual:</strong>
-                Se refiere a estar libre de todas las formas discriminatorias.
-                Implica respeto a la multiplicidad y diversidad de las formas de
-                expresión de la sexualidad humana, sea cual fuere el sexo,
-                genero, edad, clase social, religión, orientación sexual a la
-                cual pertenece. 
-              </p>
-              <p>
-                <strong>3. Derecho a la salud sexual:</strong> Incluyendo la
-                disponibilidad de recursos suficientes para el desarrollo de la
-                investigación y conocimientos para su promoción. El SIDA y las
-                ETS requieren de aún más recursos para su diagnóstico,
-                investigación y tratamiento. 
-              </p>
-              <p>
-                <strong
-                  >4. Derecho a la información amplia, objetiva y verídica sobre
-                  la sexualidad humana:</strong
-                >
-                Que permita tomar decisiones respecto a la propia vida sexual. 
-              </p>
-              <p>
-                <strong
-                  >5. Derecho a una educación sexual integral desde el
-                  nacimiento y a lo largo de la vida:</strong
-                >
-                En este proceso deben intervenir todas las instituciones
-                sociales. 
-              </p>
-              <p>
-                <strong>6. Derecho a la libre asociación:</strong> La
-                posibilidad de contraer o no matrimonio, de disolver dicha unión
-                y de establecer otras formas de convivencia sexual. 
-              </p>
-              <p>
-                <strong
-                  >7. Derecho a la decisión reproductiva, libre y
-                  responsable:</strong
-                >
-                Tener o no hijos, el espaciamiento de los nacimientos y el
-                acceso a las formas de regular la fecundidad. El niño o la niña
-                tienen derecho a ser deseados y queridos. 
-              </p>
-              <p>
-                <strong>8. Derecho a la vida privada:</strong> Que implica la
-                capacidad de tomar decisiones autónomas con respecto a la propia
-                vida dentro de un contexto de ética personal y social. El
-                ejercicio consciente, racional y satisfactorio de la sexualidad
-                es inviolable e insustituible. 
-              </p>
-              <p>
-                <strong
-                  >9. Derecho a la autonomía, integridad y seguridad
-                  personal:</strong
-                >
-                Este derecho abarca el control y disfrute del propio cuerpo
-                libre de torturas, mutilaciones y violencia de toda índole. 
-              </p>
-            </div>
+        <div class="card-body collapse card-text" id="Derechos">
+          <div class="px-5 py-3">
+            <p>
+              <strong>1. Derecho a la libertad:</strong> Excluye todas las
+              formas de coerción, explotación y abusos sexuales en cualquier
+              momento de la vida y en cualquier condición. La lucha contra la
+              violencia constituye una prioridad. 
+            </p>
+            <p>
+              <strong>2. Derecho a la igualdad y a la equidad sexual:</strong>
+              Se refiere a estar libre de todas las formas discriminatorias.
+              Implica respeto a la multiplicidad y diversidad de las formas de
+              expresión de la sexualidad humana, sea cual fuere el sexo, genero,
+              edad, clase social, religión, orientación sexual a la cual
+              pertenece. 
+            </p>
+            <p>
+              <strong>3. Derecho a la salud sexual:</strong> Incluyendo la
+              disponibilidad de recursos suficientes para el desarrollo de la
+              investigación y conocimientos para su promoción. El SIDA y las ETS
+              requieren de aún más recursos para su diagnóstico, investigación y
+              tratamiento. 
+            </p>
+            <p>
+              <strong
+                >4. Derecho a la información amplia, objetiva y verídica sobre
+                la sexualidad humana:</strong
+              >
+              Que permita tomar decisiones respecto a la propia vida sexual. 
+            </p>
+            <p>
+              <strong
+                >5. Derecho a una educación sexual integral desde el nacimiento
+                y a lo largo de la vida:</strong
+              >
+              En este proceso deben intervenir todas las instituciones
+              sociales. 
+            </p>
+            <p>
+              <strong>6. Derecho a la libre asociación:</strong> La posibilidad
+              de contraer o no matrimonio, de disolver dicha unión y de
+              establecer otras formas de convivencia sexual. 
+            </p>
+            <p>
+              <strong
+                >7. Derecho a la decisión reproductiva, libre y
+                responsable:</strong
+              >
+              Tener o no hijos, el espaciamiento de los nacimientos y el acceso
+              a las formas de regular la fecundidad. El niño o la niña tienen
+              derecho a ser deseados y queridos. 
+            </p>
+            <p>
+              <strong>8. Derecho a la vida privada:</strong> Que implica la
+              capacidad de tomar decisiones autónomas con respecto a la propia
+              vida dentro de un contexto de ética personal y social. El
+              ejercicio consciente, racional y satisfactorio de la sexualidad es
+              inviolable e insustituible. 
+            </p>
+            <p>
+              <strong
+                >9. Derecho a la autonomía, integridad y seguridad
+                personal:</strong
+              >
+              Este derecho abarca el control y disfrute del propio cuerpo libre
+              de torturas, mutilaciones y violencia de toda índole. 
+            </p>
           </div>
         </div>
       </div>
     </div>
 
     <!-- menu para diccionario -->
-    <div class="container mt-5 hide" id="menu4">
+    <div class="container mt-5 collapse" id="Diccionario">
       <div class="card">
-        <img src="..." class="card-img-top" alt="..." />
-        <div class="card-body px-5 py-4 bg-dark" style="color: white">
-          <h2 class="text-center">DICCIONARIO</h2>
+        <img src="assets/TDiccionario.png" class="card-img-top" alt="diccionario" style="z-index: 1;"/>
+        <div class="card-body px-5 py-4">
           <p class="card-text">
             <strong style="color: yellow">COMPORTAMIENTO SEXUAL:</strong>
             Lo que uno hace. Incluye los juegos de exploración sexual, la auto.
@@ -621,7 +637,7 @@
     </div>
 
     <!-- menu para docentes -->
-    <div class="card container my-5 hide" id="menu5">
+    <div class="card container my-5 collapse" id="Docentes">
       <img src="..." class="card-img-top" alt="..." />
       <div class="card-body mx-5 my-4">
         <h2 class="text-center">DOCENTES</h2>
@@ -937,7 +953,7 @@
 
     <!-- menu para familias -->
 
-    <div class="card container my-5 hide" id="menu6">
+    <div class="card container my-5 collapse" id="Familias">
       <img src="..." class="card-img-top" alt="..." />
       <div class="card-body">
         <h2>FAMILIAS</h2>
@@ -1088,7 +1104,7 @@
 
     <!-- menu para niños y niñas -->
 
-    <div class="card container my-5 hide" id="menu7">
+    <div class="card container my-5 collapse" id="Niños">
       <img src="..." class="card-img-top" alt="..." />
       <div class="card-body">
         <h2>NIÑOS Y NIÑAS</h2>
@@ -1204,7 +1220,7 @@
 
     <!-- menu de material de apoyo -->
 
-    <div class="container my-5 hide" id="menu8">
+    <div class="container my-5 collapse" id="Material">
       <h2 class="text-center">MATERIAL DE APOYO</h2>
       <div class="card text-center">
         <div class="card-header">
@@ -1261,7 +1277,7 @@
               </h2>
               <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-5">
                 <div class="col">
-                  <div class="card shadow">
+                  <div class="card shadow-sm">
                     <iframe
                       width="auto"
                       height="300"
@@ -1274,7 +1290,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card shadow">
+                  <div class="card shadow-sm">
                     <iframe
                       width="auto"
                       height="300"
@@ -1292,7 +1308,7 @@
           <!-- videos para familias -->
           <div class="album py-3">
             <div class="container">
-              <h2 class="encabezado text-center">
+              <h2 class="encabezado text-center py-5">
                 <img
                   src="./assets/familia.svg"
                   class="img-fluid img-encabezado"
@@ -1300,9 +1316,9 @@
                 />
                 Para Familias
               </h2>
-              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-5">
-                <div class="col">
-                  <div class="card shadow">
+              <div class="card-columns">
+                <div>
+                  <div class="card shadow-sm">
                     <iframe
                       width="auto"
                       height="300"
@@ -1312,10 +1328,20 @@
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowfullscreen
                     ></iframe>
+                    <div class="card-body">
+                      <p class="card-text">
+                        En este vídeo encontrarán algunos tips con respecto al
+                        rol de los padres y/o cuidadores en la etapa preescolar
+                        de sus hijos, con el objetivo de educar en Afectividad y
+                        Sexualidad, para fomentar el cuidado de ellos, y en la
+                        búsqueda de la prevención de situaciones de abuso, en
+                        las diferentes formas en que pueden presentarse.
+                      </p>
+                    </div>
                   </div>
                 </div>
-                <div class="col">
-                  <div class="card shadow">
+                <div>
+                  <div class="card shadow-sm">
                     <iframe
                       width="auto"
                       height="300"
@@ -1325,10 +1351,19 @@
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowfullscreen
                     ></iframe>
+                    <div class="card-body">
+                      <p class="card-text">
+                        En este vídeo podrás ver ciertos mitos y errores que nos
+                        han acompañado durante la educación sexual impartida de
+                        los padres hacia sus  hijos, y es importante aclararlos
+                        para poder comprender la importancia de esta dimensión
+                        valórica en la formación de ellos.
+                      </p>
+                    </div>
                   </div>
                 </div>
-                <div class="col">
-                  <div class="card shadow">
+                <div>
+                  <div class="card shadow-sm">
                     <iframe
                       width="auto"
                       height="300"
@@ -1338,10 +1373,19 @@
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowfullscreen
                     ></iframe>
+                    <div class="card-body">
+                      <p class="card-text">
+                        En este vídeo podrán encontrar ciertas herramientas para
+                        que padres y/o cuidadores fomenten la seguridad y el
+                        respeto de sus hijos, a través del autoestima y el
+                        autoconcepto, lo que es clave al momento de prevenir
+                        situaciones de riesgo.
+                      </p>
+                    </div>
                   </div>
                 </div>
-                <div class="col">
-                  <div class="card shadow">
+                <div>
+                  <div class="card shadow-sm">
                     <iframe
                       width="auto"
                       height="300"
@@ -1351,10 +1395,18 @@
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowfullscreen
                     ></iframe>
+                    <div class="card- body">
+                      <p class="card-text">
+                        Enseñar a los niños pequeños sobre la identidad sexual:
+                        Los niños aprenden lo que es ser un niño o una niña del
+                        mundo que los rodea, de ti, de otros miembros de su
+                        familia, de los libros y otros medios de comunicación.
+                      </p>
+                    </div>
                   </div>
                 </div>
-                <div class="col">
-                  <div class="card shadow">
+                <div>
+                  <div class="card shadow-sm">
                     <iframe
                       width="auto"
                       height="300"
@@ -1364,10 +1416,18 @@
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowfullscreen
                     ></iframe>
+                    <div class="card-body">
+                      <p class="card-text">
+                        Fundamentos de la educación sexual para preescolares:
+                        Aprende a enseñar a los niños pequeños sobre sus cuerpos
+                        y quién puede tocarlos o ver sus genitales como un medio
+                        para prevenir el abuso sexual.
+                      </p>
+                    </div>
                   </div>
                 </div>
-                <div class="col">
-                  <div class="card shadow">
+                <div>
+                  <div class="card shadow-sm">
                     <iframe
                       width="auto"
                       height="300"
@@ -1377,10 +1437,18 @@
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowfullscreen
                     ></iframe>
+                    <div class="card-body">
+                      <p class="card text">
+                        Enseñar a los niños sobre las relaciones saludables:
+                        Aprender a tener amistades saludables desde el principio
+                        puede ayudarles a lidiar con relaciones más complejas,
+                        incluidas las relaciones románticas y sexuales.
+                      </p>
+                    </div>
                   </div>
                 </div>
-                <div class="col">
-                  <div class="card shadow">
+                <div>
+                  <div class="card shadow-sm">
                     <iframe
                       width="auto"
                       height="300"
@@ -1390,62 +1458,18 @@
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowfullscreen
                     ></iframe>
+                    <div class="card-body">
+                      <p class="card-text">
+                        Explique a los niños de dónde vienen los bebés: Aprender
+                        a tener amistades saludables desde el principio puede
+                        ayudarles a lidiar con relaciones más complejas,
+                        incluidas las relaciones románticas y sexuales.
+                      </p>
+                    </div>
                   </div>
                 </div>
-                <div class="col">
-                  <div class="card shadow">
-                    <iframe
-                      width="auto"
-                      height="300"
-                      src="https://www.youtube.com/embed/L41V06_7umw"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen
-                    ></iframe>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card shadow">
-                    <iframe
-                      width="auto"
-                      height="300"
-                      src="https://www.youtube.com/embed/TF5kHF2G-j0"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen
-                    ></iframe>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card shadow">
-                    <iframe
-                      width="auto"
-                      height="300"
-                      src="https://www.youtube.com/embed/Kg7Mi6Wha1I"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen
-                    ></iframe>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card shadow">
-                    <iframe
-                      width="auto"
-                      height="300"
-                      src="https://www.youtube.com/embed/x3AnhMjWUNM"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen
-                    ></iframe>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card shadow">
+                <div>
+                  <div class="card shadow-sm">
                     <iframe
                       width="auto"
                       height="300"
@@ -1455,6 +1479,84 @@
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowfullscreen
                     ></iframe>
+                    <div class="card-body">
+                      <p class="card-text">
+                        El papel de la familia en el contexto de la sexualidad
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="card shadow-sm">
+                    <iframe
+                      width="auto"
+                      height="300"
+                      src="//www.youtube.com/embed/TF5kHF2G-j0"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                    <div class="card-body">
+                      <p class="card-text">
+                        Cuando se habla  de sexualidad se debe de impartir
+                        educación sexual según la edad, y en este video se habla
+                        de como hablar de sexo con los hijos pequeños,  es decir
+                        los de la primera y segunda etapa que van de los 0 a los
+                        3 años y de los 3 años a los 6 años respectivamente,
+                        este video responderá a dudas muy comunes como ¿Por qué
+                        parece que mi bebé  se masturba? o ¿Es normal que mi
+                        hijo juegue con juguetes de niñas? incluso explicaran
+                        cómo hablar con sus hijos para que aprendan a cuidar su
+                        cuerpo.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="card shadow-sm">
+                    <iframe
+                      width="auto"
+                      height="300"
+                      src="https://www.youtube.com/embed/Kg7Mi6Wha1I"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                    <div class="card-body">
+                      <p class="card-text">
+                        ¿Cómo hablar de sexualidad a niños de primaria?: En este
+                        video aprenderás cómo hablar de sexualidad a niños de
+                        primaria o lo que es lo mismo niños de la tercera etapa,
+                        pues hay muchos problemas que se derivan de no saber
+                        como hablar de sexo con los niños de 6 a 12 años de
+                        edad, recuerda que en este video solo se explica el
+                        como.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="card shadow-sm">
+                    <iframe
+                      width="auto"
+                      height="300"
+                      src="https://www.youtube.com/embed/x3AnhMjWUNM"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                    <div class="card-body">
+                      <p class="card-text">
+                        Educación Sexual en niños: en este video conocerás
+                        cuáles son las edades en dónde los niños empiezan a
+                        identificar y explorar sus órganos genitales  y cómo
+                        abordar este tema tan importante en la educación de
+                        nuestros hijos.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1464,7 +1566,7 @@
           <!-- videos docentes -->
           <div class="album py-3">
             <div class="container">
-              <h2 class="encabezado text-center">
+              <h2 class="encabezado text-center py-5">
                 <img
                   src="./assets/profesor.svg"
                   class="img-fluid img-encabezado"
@@ -1473,8 +1575,8 @@
                 Para docentes
               </h2>
               <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-5">
-                <div class="col">
-                  <div class="card shadow">
+                <div>
+                  <div class="card shadow-sm">
                     <iframe
                       width="auto"
                       height="300"
@@ -1484,10 +1586,18 @@
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowfullscreen
                     ></iframe>
+                    <div class="card-body">
+                      <p class="card-text">
+                        ¿Cómo enseñar Educación Sexual Integral en el aula? Es
+                        una conferencia que habla sobre la educación sexual
+                        integral, donde explican que es, como se aborda y hasta
+                        donde se debe de incluir.
+                      </p>
+                    </div>
                   </div>
                 </div>
-                <div class="col">
-                  <div class="card shadow">
+                <div>
+                  <div class="card shadow-sm">
                     <iframe
                       width="auto"
                       height="300"
@@ -1497,10 +1607,17 @@
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowfullscreen
                     ></iframe>
+                    <div class="card-body">
+                      <p class="card-text">
+                        Educación sexual en el aula, este es un video que aborda
+                        conceptos básicos y cómo abordarlos con los niños y
+                        niñas.
+                      </p>
+                    </div>
                   </div>
                 </div>
-                <div class="col">
-                  <div class="card shadow">
+                <div>
+                  <div class="card shadow-sm">
                     <iframe
                       width="auto"
                       height="300"
@@ -1510,6 +1627,13 @@
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowfullscreen
                     ></iframe>
+                    <div class="card-body">
+                      <p class="card-text">
+                        Este video es una conferencia corta donde psicólogos y
+                        profesores abordan el tema de la educación sexual en la
+                        primera infancia.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1532,7 +1656,7 @@
               <p>A PARTIR DE LOS TRES AÑOS</p>
               <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-5">
                 <div class="col-4">
-                  <div class="card shadow">
+                  <div class="card shadow-sm">
                     <a
                       href="https://www.observatoriodelainfancia.es/ficherosoia/documentos/3844_d_No-le-cuentes-cuentos.pdf"
                       target="_blank"
@@ -1557,7 +1681,7 @@
                   </div>
                 </div>
                 <div class="col-4">
-                  <div class="card shadow">
+                  <div class="card shadow-sm">
                     <a
                       href="https://www.edu.xunta.gal/centros/ceipfontesbainha/?q=system/files/mama%20puso%20un%20huevo_0.pdf"
                       target="_blank"
@@ -1579,7 +1703,7 @@
                   </div>
                 </div>
                 <div class="col-4">
-                  <div class="card shadow">
+                  <div class="card shadow-sm">
                     <a
                       href="https://www.observatoriodelainfancia.es/ficherosoia/documentos/3844_d_No-le-cuentes-cuentos.pdf"
                       target="_blank"
@@ -1600,9 +1724,238 @@
                   </div>
                 </div>
               </div>
+
+              <p class="py-5">A PARTIR DE LOS SEIS AÑOS</p>
+              <div class="card-columns">
+                <div>
+                  <div class="card shadow-sm">
+                    <a
+                      href="https://mamisalva.com/wp-content/uploads/2020/02/RANA_Estela_Grita_Muy_Fuerte_cuento-4.pdf"
+                      target="_blank"
+                      ><img
+                        src="assets/libroNiño4.png"
+                        alt=""
+                        class="img-fluid"
+                    /></a>
+                    <div class="card-body">
+                      <p class="card-text text-center">
+                        <strong> Estela, grita muy fuerte!</strong> Es un cuento
+                        para que los niños lo lean acompañados de un adulto
+                        responsable que les permita encontrar el sentido de la
+                        historia y trabajar sus contenidos. La protagonista del
+                        cuento, Estela, tendrá que hacer frente a diversas
+                        situaciones, entre ellas el abuso sexual.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="card shadow-sm">
+                    <a
+                      href="https://issuu.com/edbellaterra/docs/cosquillas"
+                      target="_blank"
+                      ><img
+                        src="assets/libroNiño5.png"
+                        alt=""
+                        class="img-fluid"
+                    /></a>
+                    <div class="card-body">
+                      <p class="card-text text-center">
+                        <strong>Cosquillas</strong> es un cuento que relata cómo
+                        la sexualidad nos acompaña, desde muy pequeños, en las
+                        distintas etapas de nuestra vida. Es una fuente de
+                        aprendizaje y un campo lleno de experiencias muy
+                        valiosas para nuestro desarrollo. Pese a que a veces nos
+                        puede resultar difícil hablar a los niños y niñas de su
+                        sexualidad, sus deseos y sus fantasías, hacerlo
+                        contribuye a que crezcan de un modo saludable e
+                        integral. Como personas adultas, es importante promover
+                        la libre experimentación con el cuerpo y ampliar el
+                        imaginario en torno a la sexualidad.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="card shadow-sm">
+                    <a
+                      href="https://www.traficantes.net/sites/default/files/pdfs/9788416003488.pdf"
+                      target="_blank"
+                      ><img
+                        src="assets/libroNiño6.png"
+                        alt=""
+                        class="img-fluid"
+                    /></a>
+                    <div class="card-body">
+                      <p class="card-text text-center">
+                        Este es un documento ilustrado para niños, niñas y
+                        jóvenes, en el cual se parte de una pregunta clave sobre
+                        el cuerpo, cada respuesta va acompañado de una
+                        ilustración que permite dar respuesta a estas preguntas
+                        que se plantean.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="card shadow-sm">
+                    <a
+                      href="https://issuu.com/edbellaterra/docs/mi_princesito"
+                      target="_blank"
+                      ><img
+                        src="assets/libroNiño7.png"
+                        alt=""
+                        class="img-fluid"
+                    /></a>
+                    <div class="card-body">
+                      <p class="card-text text-center">
+                        <strong>Mi Princesito</strong> es un libro de la
+                        estadounidense Cheryl Kilo Davis. Una historia sobre un
+                        niño que decide ir a la escuela vestido de princesa y
+                        romper con las normas. Una historia de aceptación y
+                        empatía.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <h2 class="encabezado text-center py-5">
+                <img
+                  src="./assets/familia.svg"
+                  class="img-fluid img-encabezado"
+                  alt=""
+                />
+                Para Familias
+              </h2>
+              <div class="card-columns">
+                <div>
+                  <div class="card shadow-sm">
+                    <a
+                      href="https://www.observatoriodelainfancia.es/ficherosoia/documentos/3845_d_Cuentos-para-educar-en-familia-Educacion-sexual.pdf"
+                      target="_blank"
+                      ><img
+                        src="assets/libroFamilia1.png"
+                        alt=""
+                        class="img-fluid"
+                    /></a>
+                    <div class="card-body">
+                      <p class="card-text text-center">
+                        Cuentos para educar en familia dirigidos a niños y niñas
+                        entre 6 y 12 años para fomentar la educación sexual: La
+                        finalidad de este libro de cuentos es aportar recursos a
+                        padres, madres y educadores para trabajar la educación
+                        sexual en la familia con niños y niñas de seis a 12
+                        años. A través de la lectura compartida de los cuentos
+                        con los hijos e hijas, esta publicación proporciona una
+                        excelente excusa para fomentar el diálogo sobre
+                        sexualidad en casa y promover que las madres y los
+                        padres sean referentes en temas tan primordiales como
+                        son la afectividad, la relaciones humanas y la salud
+                        sexual.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="card shadow-sm">
+                    <a
+                      href="https://www.plannedparenthood.org/files/1214/0001/2327/ParentGuideSp.pdf"
+                      target="_blank"
+                      ><img
+                        src="assets/libroFamilia2.png"
+                        alt=""
+                        class="img-fluid"
+                    /></a>
+                    <div class="card-body">
+                      <p class="card-text text-center">
+                        Guia para padres y madres para ayudar a otros padres y
+                        madres a hablar con sus hijos(as) sobre la sexualidad.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h2 class="encabezado text-center py-5">
+                <img
+                  src="./assets/profesor (1).svg"
+                  class="img-fluid img-encabezado"
+                  alt=""
+                />
+                Para docentes
+              </h2>
+              <div class="card-columns">
+                <div>
+                  <div class="card shadow-sm">
+                    <a
+                      href="http://tiempodehablar.paniamordigital.org/files/Descargas/files/4_100_sexo..qesharrislibrorecomendado.pdf"
+                      target="_blank"
+                      ><img
+                        src="assets/libroDocentes1.png"
+                        alt=""
+                        class="img-fluid"
+                    /></a>
+                    <div class="card-body">
+                      <p class="card-text text-center">
+                        Sexo ¿que es? , así se titula este capítulo, allí
+                        explican conceptos importantes referentes a la
+                        sexualidad.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="card shadow-sm">
+                    <a
+                      href="https://drive.google.com/file/d/1zZklRNyLhwZLc2ZTWu4hSYtEJDc9ftN3/view"
+                      target="_blank"
+                      ><img
+                        src="assets/libroDocentes2.png"
+                        alt=""
+                        class="img-fluid"
+                    /></a>
+                    <div class="card-body">
+                      <p class="card-text text-center">
+                        Este es un cuadernillo el cual sirve como herramienta
+                        pedagógica para facilitar talleres con adolescentes y
+                        jóvenes, este está dividido por capítulos, los cuales
+                        presentan información teórica acompañados de
+                        actividades.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="card shadow-sm">
+                    <a
+                      href="https://books.google.com.co/books?id=EdhdDwAAQBAJ&printsec=frontcover&dq=sexualidad+mucho+que+mas+que+sexo&hl=es-419&sa=X&redir_esc=y#v=onepage&q&f=true"
+                      target="_blank"
+                      ><img
+                        src="assets/libroDocentes3.png"
+                        alt=""
+                        class="img-fluid"
+                    /></a>
+                    <div class="card-body">
+                      <p class="card-text text-center">
+                        <strong>Sexualidad... mucho más que sexo</strong>
+                        integra los resultados de las investigaciones que ha
+                        realizado el grupo Familia y Sexualidad, del
+                        Departamento de Psicología de la Universidad de los
+                        Andes, desde 1997, sobre los factores culturales,
+                        sociales, interpersonales e individuales que determinan
+                        las decisiones y los comportamientos sexuales de las
+                        personas en la juventud. El libro está escrito de tal
+                        manera que permite a quien lo lee partir de sus propias
+                        inquietudes e intereses para explorar nuevos conceptos e
+                        identificar aquellos vacíos que necesita llenar para
+                        decidir sobre los asuntos que afectan su sexualidad.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          b
         </div>
 
         <!-- talleres -->
@@ -1615,19 +1968,12 @@
     </div>
 
     <p class="text-center cita container mt-5">
-      VARGAS(2007) ”la sexualidad es parte integral de nuestra identidad y, por
-      lo tanto, el proceso de conocimiento de nosotros mismos y de quienes nos
-      rodean supone el intercambio de ideas acerca de lo que nos caracteriza
-      sexualmente (…) Hablar de sexualidad no deberia limitarse a tratar solo
-      temas sobre las relaciones sexuales, infecciones de trasmisión sexual, el
-      embarazo, el aborto y la planificación familiar. Pues hablar de sexualidad
-      implica más que eso, es compartir la idea que tenemos nosotros como
-      hombres o como mujeres, además de hablar sobre nuestras creencias,
-      temores, necesidades, expectativas, experiencias, normas, aspiraciones,
-      preferencias y metas que involucran nuestra dimensión sexual”. Este
-      intercambio de ideas favorece el conocimiento mutuo, y la comunicación
-      sobre la sexualidad será fundamnetal para establecer y mantener relaciones
-      significativas con otros.
+      CRESALC, (1978) afirma que “La educación sexual tendrá que empezar por
+      liberar al niño, al joven, al adulto de las servidumbres sexuales que los
+      alienan y los oprimen; tendrá que liberarlos de los prejuicios y de los
+      tabúes, de la ignorancia y del miedo con la sexualidad. La educación
+      sexual así planteada sólo es posible si el educador está liberado para
+      poder liberar”
     </p>
 
     <section>
