@@ -22,6 +22,10 @@ body {
 }
 .sub-btn{
 	font-size: 1rem;
+	padding: 50px;
+}
+.bg-white{
+	background: #ffff;
 }
 .title_head{
 	font-weight: 900 !important;
