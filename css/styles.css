@@ -22,7 +22,7 @@ body {
 }
 .sub-btn{
 	font-size: 1rem;
-	padding: 50px;
+	padding: 30px;
 }
 .bg-white{
 	background: #ffff;
@@ -38,25 +38,23 @@ body {
 	border-radius: 100px;
 	font-weight: 700;
 	color: #ffff; 
-	/* FFF6EE */
 	font-size: 1.2rem;
 }
-
-.encabezado{
-	font-size: 4vh;
-	font-weight: 700;
+.header-title{
+	background: #FE7AB6;
+	padding: 5%;
+	border-radius: 20px 20px 0 0;
+	margin-bottom: 10vh;
 }
-.img-encabezado{
-	width: 10vh;
+.header-title h2{
+	color: white;
+	font-size: 4rem;
+	font-weight: 400;
 }
-.module{
-	background: #FFF8DC;
-	border-radius: 5vh;
-	
+.header-title img{
+	width: 8vh;
+	padding-button:20vh;
 }
-/* #menu1, #menu2, #menu, #menu4, #menu5, #menu6, #menu7{
-	display: none;
-} */
 .hide{
 	display: none;
 }
